@@ -8,7 +8,6 @@ public class HmdbApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HmdbApplication.class, args);
-		System.out.println("I'm Demir, a.k.a Redi!");
 	}
 
 }
