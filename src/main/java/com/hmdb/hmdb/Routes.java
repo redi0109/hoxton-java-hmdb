@@ -17,7 +17,7 @@ public class Routes {
         }
 
         if (match == null) {
-            throw new Error("Error 404: No movie for you :(");
+            throw new Error("Error 404: No movies for you :(");
         }
 
         return match;
@@ -34,7 +34,7 @@ public class Routes {
         }
 
         if (match == null) {
-            throw new Error("Error 404: No actor for you :(");
+            throw new Error("Error 404: No actors for you :(");
         }
 
         return match;
